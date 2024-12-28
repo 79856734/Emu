@@ -1,4 +1,4 @@
-.font {color: white;
+.font {color: #DBDBDB;
   font: Helvetica;
 }
 
@@ -8,4 +8,12 @@
 
 .link2 {color: yellow;
   font: Helvetica;
-       }
+}
+
+.link3 {color: #7400FF;
+  font: Helvetica;
+}
+
+.link4 {color: #1AFF00;
+  font: Helvetica;
+}
