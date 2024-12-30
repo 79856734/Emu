@@ -1,9 +1,5 @@
 body{
-  background-image: url("sketch-1735576657310.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 74%, rgba(2,0,77,1) 100%);
   /* display: flex; */
   font-family: 'Roboto', sans-serif; 
 }
