@@ -2,10 +2,12 @@ body{
 background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 74%, rgba(2,0,77,1) 100%);
   background-attachment: fixed;
   /* display: flex; */
-  font-family: 'Roboto', sans-serif, Helvetica; 
+  font-family: 'Roboto', sans-serif; 
 }
 
 button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
   border: none;
   color: white;
   padding: 10px 10px;
@@ -27,7 +29,9 @@ font {color: #DBDBDB;
   font: Helvetica;
 }
 
-a {color:white;} 
+a {color:white;
+  -webkit-tap-highlight-color: transparent;
+} 
 
 .link {color: cyan;
   font: Helvetica;
