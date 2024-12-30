@@ -1,8 +1,8 @@
 body{
-  background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 74%, rgba(2,0,77,1) 100%);
+background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 74%, rgba(2,0,77,1) 100%);
   background-attachment: fixed;
   /* display: flex; */
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif, Helvetica; 
 }
 
 button {
@@ -27,9 +27,7 @@ font {color: #DBDBDB;
   font: Helvetica;
 }
 
-a {color:white;
-
-} 
+a {color:white;} 
 
 .link {color: cyan;
   font: Helvetica;
@@ -39,12 +37,20 @@ a {color:white;
   background-color: #0AC0DC; 
 }
 
+.button:active {
+  background-color: #017A8D;
+} 
+
 .link2 {color: yellow;
   font: Helvetica;
 }
 
 .button2 {
   background-color: #B5A600; 
+}
+
+.button2:active {
+  background-color: #796F02;
 }
 
 .link3 {color: #7400FF;
@@ -55,12 +61,20 @@ a {color:white;
   background-color: #7400FF; 
 }
 
+.button3:active {
+  background-color: #5004AA;
+}
+
 .link4 {color: #1AFF00;
   font: Helvetica;
 }
 
 .button4 {
   background-color: #1AFF00; 
+}
+
+.button4:active {
+  background-color: #14AC02;
 }
 
 .link5 {color: #FF00DC;
@@ -70,3 +84,7 @@ a {color:white;
 .button5 {
   background-color: #D501B8; 
 } 
+
+.button5:active {
+  background-color: #8E027B;
+}
