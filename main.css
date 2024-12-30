@@ -1,5 +1,6 @@
 body{
   background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 74%, rgba(2,0,77,1) 100%);
+  background-attachment: fixed;
   /* display: flex; */
   font-family: 'Roboto', sans-serif; 
 }
