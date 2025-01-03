@@ -1,6 +1,7 @@
 body{
 background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 74%, rgba(2,0,77,1) 100%);
   background-attachment: fixed;
+  /* display: flex; */
   font-family: 'Roboto', sans-serif; 
 }
 
@@ -24,7 +25,7 @@ button:active {
   transform: translateY(3px);
 }
 
-font {color: #DBDBDB;
+.font {color: #DBDBDB;
   font: Helvetica;
 }
 
@@ -37,11 +38,11 @@ a {color:white;
 }
 
 .button {
-  background-color: #0AC0DC; 
+  background-color: #DC0A0A; 
 }
 
 .button:active {
-  background-color: #017A8D;
+  background-color: #8D0101;
 } 
 
 .link2 {color: yellow;
@@ -49,7 +50,7 @@ a {color:white;
 }
 
 .button2 {
-  background-color: #B5A600; 
+  background-color: #C7B702; 
 }
 
 .button2:active {
@@ -91,3 +92,11 @@ a {color:white;
 .button5:active {
   background-color: #8E027B;
 }
+
+.button6 {
+  background-color: #00ADFF; 
+} 
+
+.button6:active {
+  background-color: #0078B1;
+} 
